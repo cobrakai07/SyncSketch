@@ -22,9 +22,9 @@ export  const ConvexClientProvider=({
     return(
         <ClerkProvider>
             <ConvexProviderWithClerk useAuth={useAuth} client={convex}>
-                {/* <Authenticated> */}
+                <Authenticated>
                 {children}
-                {/* </Authenticated> */}
+                </Authenticated>
                 <AuthLoading>
                     <Loading/>
                 </AuthLoading>

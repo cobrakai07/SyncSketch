@@ -14,7 +14,7 @@ export const List = () => {
   if (!userMemberships || !userMemberships.data) return null;
 
   return (
-    <ul>
+    <ul className="flex flex-col gap-2">
       {userMemberships.data.map((org) => (
         <Item 
         key={org.organization.id}
