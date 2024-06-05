@@ -35,8 +35,11 @@ function NavBar() {
       }/>
       </div>
       <div>
+        
         {
-          organization && (<InviteButton />)
+          // organization && (<InviteButton />)
+
+        //=====giving errors====//
         }
         <UserButton />
       </div>
