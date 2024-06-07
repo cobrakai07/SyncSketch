@@ -11,7 +11,6 @@ interface BoardListProps {
         favorites?: string;
     };
     }
-}
 
 const BoardList = ({orgId, query}:BoardListProps) => {
     const data=[];
